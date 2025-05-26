@@ -19,7 +19,7 @@ typedef int (*Predicado)(void *dato);
 /**
  * Crea e inicializa una nueva cola vacía con la capacidad dada.
  */
-Cola cola_crear(int size);
+Cola cola_crear();
 
 /**
  * Libera la memoria requerida para la cola.
