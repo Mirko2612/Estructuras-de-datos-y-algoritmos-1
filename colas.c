@@ -3,9 +3,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-Cola cola_crear(int size){
-    if (size <=0) return NULL;
-    Cola cola=malloc(sizeof(struct _Cola)*size);
+Cola cola_crear(){
+    Cola cola=malloc(sizeof(Cola));
     assert(cola);
     cola->primero=NULL;
     cola->ultimo=NULL;
